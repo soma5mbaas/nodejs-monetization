@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-monetization",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "amqplib": "^0.3.0",
+    "async": "^0.9.0",
+    "cluster": "^0.7.7",
+    "cors": "^2.5.0",
+    "debug": "~0.7.4",
+    "express": "~4.2.0",
+    "haru-nodejs-store": "0.0.33",
+    "haru-nodejs-util": "0.0.41",
+    "iconv": "^2.1.4",
+    "jconv": "^0.1.5",
+    "moment": "^2.8.3",
+    "morgan": "~1.0.0",
+    "multer": "^0.1.6",
+    "request": "^2.47.0",
+    "underscore": "^1.7.0",
+    "underscore.string": "^2.3.3",
+    "uuid": "^2.0.1",
+    "whacko": "^0.17.1"
+  }
+}

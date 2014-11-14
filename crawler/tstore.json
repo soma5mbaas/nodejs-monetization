@@ -1,0 +1,12 @@
+{
+  "numberOfReview": 10,
+  "url": "http://m.tstore.co.kr/mobilepoc/reply/replyTotalListMore.omp",
+  "selectors":
+  [
+    {
+      "selector": "a img.author-image",
+      "attr": "src",
+      "property": "authimage"
+    }
+  ]
+}

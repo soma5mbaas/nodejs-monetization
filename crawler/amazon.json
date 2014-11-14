@@ -1,0 +1,30 @@
+{
+  "numberOfReview": 10,
+  "totalUrl": "http://www.amazon.com/ss/customer-reviews/%s/",
+  "url": "/product-reviews/%s/ref=cm_cr_pr_top_link_%d?ie=UTF8&pageNumber=%d&showViewpoints=0&sortBy=bySubmissionDateDescending",
+
+  "host": {
+    "ja": "http://www.amazon.co.jp",
+    "en": "http://www.amazon.com",
+    "fr": "http://www.amazon.fr",
+    "cn": "http://www.amazon.cn",
+    "ca": "http://www.amazon.ca",
+    "de": "http://www.amazon.de",
+    "uk": "http://www.amazon.co.uk"
+  },
+
+  "successUrl": "http://172.16.101.71:8000/qna/webhook?appid=%s&messagetype=crawler",
+  "mainSelector1": "table#productReviews",
+  "mainSelector2": "div.a-section.review",
+
+
+
+  "selectors":
+  [
+    {
+      "selector": "a img.author-image",
+      "attr": "src",
+      "property": "authimage"
+    }
+  ]
+}

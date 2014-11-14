@@ -1,0 +1,13 @@
+{
+  "numberOfReview": 20,
+  "url": "http://intf.baike.360.cn/index.php?name=%s&c=message&a=getmessage&start=%d&count=20",
+  "host": "intf.baike.360.cn",
+  "selectors":
+  [
+    {
+      "selector": "a img.author-image",
+      "attr": "src",
+      "property": "authimage"
+    }
+  ]
+}
